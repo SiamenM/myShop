@@ -12,15 +12,15 @@ public class SessionUtils {
     }
 
     public static ShoppingCart getCurrentShopppingCart(HttpServletRequest request) {
-        ShoppingCart shoppingCart = (ShoppingCart) request.getSession().getAttribute(ApplicationConstants.CURRENT_SHOPING_CART);
+        ShoppingCart shoppingCart = (ShoppingCart) request.getSession().getAttribute(ApplicationConstants.CURRENT_SHOPPING_CART);
         if (shoppingCart == null) {
             shoppingCart = new ShoppingCart();
-            request.getSession().setAttribute(ApplicationConstants.CURRENT_SHOPING_CART, shoppingCart);
+            request.getSession().setAttribute(ApplicationConstants.CURRENT_SHOPPING_CART, shoppingCart);
         }
         return shoppingCart;
     }
 
-    public static boolean isCurrnetShoppingCartCreated(HttpServletRequest request) {
-        return request.getSession().getAttribute(ApplicationConstants.CURRENT_SHOPING_CART) != null;
+    public static boolean isCurrentShoppingCartCreated(HttpServletRequest request) {
+        return request.getSession().getAttribute(ApplicationConstants.CURRENT_SHOPPING_CART) != null;
     }
 }
