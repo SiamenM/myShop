@@ -19,12 +19,34 @@ public class ShoppingCartServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String cmd = req.getParameter("cmd");
+        switch (cmd) {
+            case "clear":
+                SessionUtils.clearCurrentShoppingCart(req, resp);
+                break;
+            case "invalidate":
+                req.getSession().invalidate();
+                break;
+            case "add":
+                addProduct(req, resp);
+                break;
+            default:
+                sync(req, resp);
+        }
 
     }
 
-    protected void sync(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        if(!SessionUtils.isCurrentShoppingCartCreated(request)){
-            Cookie cookie = SessionUtils.f
+    protected void sync(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (SessionUtils.isCurrentShoppingCartCreated(request)) {
+            ShoppingCart shoppingCart = SessionUtils.getCurrentShopppingCart(request);
+            String cookieValue = shoppingCartToString(shoppingCart);
+            SessionUtils.updateCurrentShoppingCartCookie(cookieValue, response);
+        } else {
+            Cookie cookie = SessionUtils.findShoppingCartCookie(request);
+            if (cookie != null) {
+                ShoppingCart shoppingCart = shoppingCartFromString(cookie.getValue());
+                SessionUtils.setCurrentShoppingCart(request, shoppingCart);
+
+            }
         }
     }
 
@@ -44,15 +66,20 @@ public class ShoppingCartServlet extends HttpServlet {
         String[] items = cookieValue.split("\\|");
         for (String item : items) {
             String data[] = item.split("-");
-            try{
+            try {
                 Integer idProduct = Integer.parseInt(data[0]);
                 Integer count = Integer.parseInt(data[1]);
-                shoppingCart.addProduct(idProduct,count);
-            }catch (RuntimeException e){
+                shoppingCart.addProduct(idProduct, count);
+            } catch (RuntimeException e) {
                 //handleException
                 e.printStackTrace();
             }
         }
         return shoppingCart;
+    }
+
+    protected void addProduct(HttpServletRequest request, HttpServletResponse response) {
+        ShoppingCart shoppingCart = SessionUtils.getCurrentShopppingCart(request);
+        shoppingCart.addProduct(5, 5);
     }
 }

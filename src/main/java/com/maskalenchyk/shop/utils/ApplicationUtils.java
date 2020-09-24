@@ -15,9 +15,7 @@ public final class ApplicationUtils {
         if (cookies != null) {
             for (Cookie cookie : cookies) {
                 if (cookie.getName().equals(cookieName)) {
-                    if (cookie.getValue() != null && !"".equals(cookie.getValue())) {
-                        return cookie;
-                    }
+                    return isEmptyCookie(cookie) ? null : cookie;
                 }
             }
         }
@@ -30,5 +28,9 @@ public final class ApplicationUtils {
         cookie.setPath("/");
         cookie.setHttpOnly(true);
         response.addCookie(cookie);
+    }
+
+    private static boolean isEmptyCookie(Cookie cookie) {
+        return cookie.getValue() != null && !"".equals(cookie.getValue());
     }
 }
