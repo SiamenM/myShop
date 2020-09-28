@@ -23,6 +23,7 @@ public class ErrorHandlerFilter implements Filter {
         } catch (Exception e) {
             String requestURI = ((HttpServletRequest) request).getRequestURI();
             LOGGER.error("Request " + requestURI + " failed: " + e.getMessage(), e);
+
             request.getRequestDispatcher("/WEB-INF/jsp/error.jsp");
         }
     }
