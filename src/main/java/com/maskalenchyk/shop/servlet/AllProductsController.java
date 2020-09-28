@@ -1,5 +1,7 @@
 package com.maskalenchyk.shop.servlet;
 
+import com.maskalenchyk.shop.utils.RoutingUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +14,8 @@ public class AllProductsController extends AbstractController {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+
+//        req.setAttribute("products", products);
+        RoutingUtils.forwardToPage("products.jsp", req, resp);
     }
 }
