@@ -10,19 +10,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter(value = "/*", filterName = "AutoRestoreShoppingCartFilter")
-public class AutoRestoreShoppingCartFilter implements Filter {
+@WebFilter(filterName = "AutoRestoreShoppingCartFilter")
+public class AutoRestoreShoppingCartFilter extends AbstractFilter {
     private static final String SHOPPING_CART_DESERIALIZATION_DONE = "SHOPPING_CART_DESERIALIZATION_DONE";
 
     @Override
-    public void init(FilterConfig filterConfig) {
-
-    }
-
-    @Override
-    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        HttpServletRequest req = (HttpServletRequest) request;
-        HttpServletResponse resp = (HttpServletResponse) response;
+    public void doFilter(HttpServletRequest req, HttpServletResponse resp, FilterChain chain) throws IOException, ServletException {
         if (req.getSession().getAttribute(SHOPPING_CART_DESERIALIZATION_DONE) == null) {
             if (!SessionUtils.isCurrentShoppingCartCreated(req)) {
                 Cookie cookie = SessionUtils.findShoppingCartCookie(req);
@@ -53,8 +46,4 @@ public class AutoRestoreShoppingCartFilter implements Filter {
         return shoppingCart;
     }
 
-    @Override
-    public void destroy() {
-
-    }
 }
