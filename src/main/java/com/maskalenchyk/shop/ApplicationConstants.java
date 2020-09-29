@@ -1,4 +1,4 @@
-package com.maskalenchyk.shop.application;
+package com.maskalenchyk.shop;
 
 public final class ApplicationConstants {
 

@@ -1,6 +1,6 @@
 package com.maskalenchyk.shop.utils;
 
-import com.maskalenchyk.shop.application.ApplicationConstants;
+import com.maskalenchyk.shop.ApplicationConstants;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

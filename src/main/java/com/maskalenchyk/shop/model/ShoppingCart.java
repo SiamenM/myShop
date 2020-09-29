@@ -1,6 +1,6 @@
 package com.maskalenchyk.shop.model;
 
-import com.maskalenchyk.shop.application.ApplicationConstants;
+import com.maskalenchyk.shop.ApplicationConstants;
 
 import java.io.Serializable;
 import java.util.Collection;

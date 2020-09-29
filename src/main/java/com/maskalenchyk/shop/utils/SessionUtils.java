@@ -1,6 +1,6 @@
 package com.maskalenchyk.shop.utils;
 
-import com.maskalenchyk.shop.application.ApplicationConstants;
+import com.maskalenchyk.shop.ApplicationConstants;
 import com.maskalenchyk.shop.model.ShoppingCart;
 
 import javax.servlet.http.Cookie;
