@@ -1,16 +1,18 @@
-<%@ tag pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
+<%@ tag pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
 
 <div id="addProductPopup" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
                 <h4 class="modal-title">Add product to Shopping cart</h4>
             </div>
             <div class="modal-body row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="thumbnail">
-                        <img class="product-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Product image">
+                        <img class="product-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                             alt="Product image">
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6">
@@ -21,7 +23,8 @@
                     </div>
                     <div class="list-group">
                         <span class="list-group-item"> <small>Price:</small> <span class="price">0</span></span>
-                        <span class="list-group-item"> <small>Count:</small> <input type="number" class="count" value="1" min="1" max="10"></span>
+                        <span class="list-group-item"> <small>Count:</small> <input type="number" class="count"
+                                                                                    value="1" min="1" max="10"></span>
                         <span class="list-group-item"> <small>Cost:</small> <span class="cost">0</span></span>
                     </div>
                 </div>

@@ -1,8 +1,8 @@
-<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
-<%@ taglib prefix="shop" tagdir="/WEB-INF/tags"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="shop" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xlg-2">
@@ -14,7 +14,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 6.0" / Camera: 3.2Mp / RAM: 4 Gb / Orange / 1100 mA/h / Weight 720 g / WiFi / Bluetooth /
+                                <span class="title">Details</span>Monitor diagonal 6.0" / Camera: 3.2Mp / RAM: 4 Gb /
+                                Orange / 1100 mA/h / Weight 720 g / WiFi / Bluetooth /
                                 Dictophone / USB
                             </p>
                         </div>
@@ -25,7 +26,8 @@
                 <div class="price">$ 570.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278009">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Prestigio</span></span>
                 </div>
             </div>
@@ -41,7 +43,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 9" / Matrix type: E lnk Pearl / Resolution: 1600x1200 / Memory 6 GB / Weight 190 g
+                                <span class="title">Details</span>Monitor diagonal 9" / Matrix type: E lnk Pearl /
+                                Resolution: 1600x1200 / Memory 6 GB / Weight 190 g
                             </p>
                         </div>
                     </div>
@@ -51,7 +54,8 @@
                 <div class="price">$ 2710.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278014">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">E-book</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">E-book</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">EvroMedia</span></span>
                 </div>
             </div>
@@ -67,7 +71,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb / Blue / 1000 mA/h / Weight 320 g / 2 Sim cards / WiFi /
+                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb /
+                                Blue / 1000 mA/h / Weight 320 g / 2 Sim cards / WiFi /
                                 USB / FM receiver / Dictophone / 3G
                             </p>
                         </div>
@@ -78,7 +83,8 @@
                 <div class="price">$ 370.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278018">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Huawei</span></span>
                 </div>
             </div>
@@ -94,7 +100,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor 9" / RAM 3 GB / HDD 370 GB / Black / Weight 60 g / Bluetooth / 3G / USB / GPS
+                                <span class="title">Details</span>Monitor 9" / RAM 3 GB / HDD 370 GB / Black / Weight 60
+                                g / Bluetooth / 3G / USB / GPS
                             </p>
                         </div>
                     </div>
@@ -104,7 +111,8 @@
                 <div class="price">$ 2630.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278026">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Apple</span></span>
                 </div>
             </div>
@@ -120,7 +128,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor 7" / RAM 4 GB / HDD 320 GB / Silver / Weight 260 g / HDMI / GPS / Bluetooth
+                                <span class="title">Details</span>Monitor 7" / RAM 4 GB / HDD 320 GB / Silver / Weight
+                                260 g / HDMI / GPS / Bluetooth
                             </p>
                         </div>
                     </div>
@@ -130,7 +139,8 @@
                 <div class="price">$ 1670.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278031">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Acer</span></span>
                 </div>
             </div>
@@ -146,7 +156,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb / Black / 1700 mA/h / Weight 800 g / Bluetooth / 3G / FM
+                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb /
+                                Black / 1700 mA/h / Weight 800 g / Bluetooth / 3G / FM
                                 receiver
                             </p>
                         </div>
@@ -157,7 +168,8 @@
                 <div class="price">$ 1130.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="278039">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Samsung</span></span>
                 </div>
             </div>
@@ -173,7 +185,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 6.0" / Camera: 3.2Mp / RAM: 4 Gb / Orange / 1100 mA/h / Weight 720 g / WiFi / Bluetooth /
+                                <span class="title">Details</span>Monitor diagonal 6.0" / Camera: 3.2Mp / RAM: 4 Gb /
+                                Orange / 1100 mA/h / Weight 720 g / WiFi / Bluetooth /
                                 Dictophone / USB
                             </p>
                         </div>
@@ -184,7 +197,8 @@
                 <div class="price">$ 570.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378009">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Prestigio</span></span>
                 </div>
             </div>
@@ -200,7 +214,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 9" / Matrix type: E lnk Pearl / Resolution: 1600x1200 / Memory 6 GB / Weight 190 g
+                                <span class="title">Details</span>Monitor diagonal 9" / Matrix type: E lnk Pearl /
+                                Resolution: 1600x1200 / Memory 6 GB / Weight 190 g
                             </p>
                         </div>
                     </div>
@@ -210,7 +225,8 @@
                 <div class="price">$ 2710.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378014">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">E-book</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">E-book</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">EvroMedia</span></span>
                 </div>
             </div>
@@ -226,7 +242,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb / Blue / 1000 mA/h / Weight 320 g / 2 Sim cards / WiFi /
+                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb /
+                                Blue / 1000 mA/h / Weight 320 g / 2 Sim cards / WiFi /
                                 USB / FM receiver / Dictophone / 3G
                             </p>
                         </div>
@@ -237,7 +254,8 @@
                 <div class="price">$ 370.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378018">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Huawei</span></span>
                 </div>
             </div>
@@ -253,7 +271,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor 9" / RAM 3 GB / HDD 370 GB / Black / Weight 60 g / Bluetooth / 3G / USB / GPS
+                                <span class="title">Details</span>Monitor 9" / RAM 3 GB / HDD 370 GB / Black / Weight 60
+                                g / Bluetooth / 3G / USB / GPS
                             </p>
                         </div>
                     </div>
@@ -263,7 +282,8 @@
                 <div class="price">$ 2630.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378026">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Apple</span></span>
                 </div>
             </div>
@@ -279,7 +299,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor 7" / RAM 4 GB / HDD 320 GB / Silver / Weight 260 g / HDMI / GPS / Bluetooth
+                                <span class="title">Details</span>Monitor 7" / RAM 4 GB / HDD 320 GB / Silver / Weight
+                                260 g / HDMI / GPS / Bluetooth
                             </p>
                         </div>
                     </div>
@@ -289,7 +310,8 @@
                 <div class="price">$ 1670.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378031">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span class="category">Tablet</span></span>
+                    <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Acer</span></span>
                 </div>
             </div>
@@ -305,7 +327,8 @@
                     <div class="desc">
                         <div class="cell">
                             <p>
-                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb / Black / 1700 mA/h / Weight 800 g / Bluetooth / 3G / FM
+                                <span class="title">Details</span>Monitor diagonal 4.4" / Camera: 3.2Mp / RAM: 1 Gb /
+                                Black / 1700 mA/h / Weight 800 g / Bluetooth / 3G / FM
                                 receiver
                             </p>
                         </div>
@@ -316,10 +339,12 @@
                 <div class="price">$ 1130.00</div>
                 <a class="btn btn-primary pull-right buy-btn" data-id-product="378039">Buy</a>
                 <div class="list-group">
-                    <span class="list-group-item"> <small>Category:</small> <span class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
+                    <span class="list-group-item"> <small>Category:</small> <span
+                            class="category">Smartphone</span></span> <span class="list-group-item"> <small>Producer:</small>
 						<span class="producer">Samsung</span></span>
                 </div>
             </div>
         </div>
         <!-- /PRODUCT DATA -->
     </div>
+</div>

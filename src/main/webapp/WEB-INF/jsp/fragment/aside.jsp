@@ -1,4 +1,4 @@
-<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" trimDirectiveWhitespaces="true"%>
+<%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" trimDirectiveWhitespaces="true" %>
 
 <div class="visible-xs-block xs-option-container">
     <a class="pull-right" data-toggle="collapse" href="#productCatalog">Product catalog <span class="caret"></span></a>
@@ -25,12 +25,14 @@
                 <label><input type="checkbox" id="allCategories"> All</label>
                 <div class="form-group">
                     <div class="checkbox">
-                        <label><input type="checkbox" name="category" value="1" class="search-option">E-book (78)</label>
+                        <label><input type="checkbox" name="category" value="1" class="search-option">E-book
+                            (78)</label>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
-                        <label><input type="checkbox" name="category" value="2" class="search-option">Mp3-player (75)</label>
+                        <label><input type="checkbox" name="category" value="2" class="search-option">Mp3-player
+                            (75)</label>
                     </div>
                 </div>
             </div>
@@ -44,7 +46,8 @@
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
-                        <label><input type="checkbox" name="producer" value="2" class="search-option">Apple (22) </label>
+                        <label><input type="checkbox" name="producer" value="2" class="search-option">Apple (22)
+                        </label>
                     </div>
                 </div>
             </div>

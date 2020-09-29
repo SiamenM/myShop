@@ -11,4 +11,4 @@
         <a id="loadMore" class="btn btn-success">Load more products</a>
     </div>
 </div>
-<shop:add-product-popup />    
+<shop:add-product-popup />

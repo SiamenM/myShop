@@ -2,7 +2,7 @@ package com.maskalenchyk.shop.service;
 
 public interface ServiceManager {
 
-    Service getService();
+//    Service getService();
 
     void close();
 }

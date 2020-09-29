@@ -16,10 +16,10 @@ public class ServiceManagerImpl implements ServiceManager {
         return serviceManager;
     }
 
-    @Override
-    public Service getService() {
-        return null;
-    }
+//    @Override
+//    public Service getService() {
+//        return null;
+//    }
 
     @Override
     public void close() {
