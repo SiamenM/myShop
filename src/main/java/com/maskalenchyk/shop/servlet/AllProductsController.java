@@ -16,6 +16,6 @@ public class AllProductsController extends AbstractController {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 //        req.setAttribute("products", products);
-        RoutingUtils.forwardToPage("products.jsp", req, resp);
+        RoutingUtils.forwardToPage("product-list.jsp", req, resp);
     }
 }
