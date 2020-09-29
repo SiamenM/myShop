@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public abstract class AbstractFilter implements Filter {
-    protected final Logger LOGGER = Logger.getLogger(AbstractFilter.class);
+    static final Logger LOGGER = Logger.getLogger(AbstractFilter.class);
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -23,8 +23,9 @@ public abstract class AbstractFilter implements Filter {
         String uri = req.getRequestURI();
         if (UriUtils.isMediaUri(uri) || UriUtils.isStaticUri(uri)) {
             chain.doFilter(request, response);
+        } else {
+            doFilter(req, resp, chain);
         }
-        doFilter(req, resp, chain);
     }
 
     public abstract void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException;

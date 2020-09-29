@@ -1,4 +1,4 @@
 package com.maskalenchyk.shop.service;
 
-public interface Service {
+public interface ProductService {
 }
