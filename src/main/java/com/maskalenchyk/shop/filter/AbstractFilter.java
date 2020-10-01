@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public abstract class AbstractFilter implements Filter {
-    static final Logger LOGGER = Logger.getLogger(AbstractFilter.class);
+    protected static final Logger LOGGER = Logger.getLogger(AbstractFilter.class);
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

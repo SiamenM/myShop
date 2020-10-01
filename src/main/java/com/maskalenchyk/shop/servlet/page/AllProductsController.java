@@ -1,5 +1,6 @@
-package com.maskalenchyk.shop.servlet;
+package com.maskalenchyk.shop.servlet.page;
 
+import com.maskalenchyk.shop.servlet.AbstractController;
 import com.maskalenchyk.shop.utils.RoutingUtils;
 
 import javax.servlet.ServletException;
@@ -8,12 +9,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet
-public class ErrorController extends AbstractController {
-    private static final long serialVersionUID = -8779236526628240132L;
+@WebServlet("/products")
+public class AllProductsController extends AbstractController {
+    private static final long serialVersionUID = -3466729181576299006L;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RoutingUtils.forwardToPage("error.jsp", req, resp);
+
+//        req.setAttribute("products", products);
+        RoutingUtils.forwardToPage("product-list.jsp", req, resp);
     }
 }
